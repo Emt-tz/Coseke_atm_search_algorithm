@@ -65,6 +65,6 @@ func distance(lat1 float64, lng1 float64, lat2 float64, lng2 float64, unit ...st
 
 func main() {
 	fmt.Printf("%f Miles\n", distance(32.9697, -96.80322, 29.46786, -98.53506, "M"))
-	fmt.Printf("%f Kilometers\n", distance(32.9697, -96.80322, 29.46786, -98.53506, "K"))
+	fmt.Printf("%f Kilometers\n", distance(32.9697, -96.80322, 29.46786, g, "K"))
 	fmt.Printf("%f Nautical Miles\n", distance(32.9697, -96.80322, 29.46786, -98.53506, "N"))
 }
