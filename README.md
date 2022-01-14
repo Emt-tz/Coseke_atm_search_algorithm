@@ -6,21 +6,21 @@
 1. Golang (compiled language)
 
 # Necessary Files
-1. # helpers.go
+1. helpers.go
     a. Contains a function `distance` necessary to calculate distance between two latitudes and longitudes 
     b. Containes sorting functions based on the `golang` sorting library
 
-2. # main.go
+2. main.go
     a. Contains detailed algorithm function and the main function to execute the code
 
 # Algorithm design 
 
 # Analysis:
 
-1. Each Atm is represented as struct with type of id, latitude and longitude
-2. A user is represented as a struct with type of id, latitude and longitude 
-3. A user at a certain location (l) is far away distance (x) from the nearest atm
-4. A user scans the current location(l) and gets results of the closest atm which is a short distance (x) away from the current user location (l)
+1. Each Atm is represented as struct with type of `id, latitude and longitude`
+2. A user is represented as a struct with type of `id, latitude and longitude` 
+3. A user at a certain `location (l)` is far away distance (x) from the nearest atm
+4. A user scans the current `location(l)` and gets results of the closest atm which is a short `distance (x)` away from the current user `location (l)`
 
 # Higher level Algorithm:
 
@@ -47,5 +47,5 @@
 
 1. Install the Golang sdk or use the go playground online
 2. Clone the repository 
-3. Through the command line cd into src directory of the folder "Coseke_atm_search_algorithm"
-4. Then execute the command `go run main.go` to see the results
+3. Through the command line `cd src` into src directory of the folder "Coseke_atm_search_algorithm"
+4. Then execute the command `go run main.go` to see test results
