@@ -1,4 +1,4 @@
-# Coseke_atm_search_algorithm
+# Coseke atm search algorithm
  A simple user nearest atm search algorithm in Golang
 
 # language implementation
